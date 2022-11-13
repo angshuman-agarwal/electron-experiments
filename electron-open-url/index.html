@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
+    <title>Electron Experiments</title>
   </head>
   <body>
     <h1>Electron Open File Demo</h1>
-    <a href="http://localhost:8080/sample.docx">Open Document in Word</a><br/>
-    <a href="http://localhost:8080/sample.pdf">Open Document in PDF</a>
+    <span>By Default opens in Word</span>
+    <a href="http://localhost:8080/sample.docx">Auto-Open in MS Word</a><br/>
+    <span>By Auto opens in PDF Viewer. Click the download arrow in the viewer which will then auto-open in default PDF app</span>
+    <a href="http://localhost:8080/sample.pdf">Auto-Open PDF</a><br/>
+    <span>Cannot auto-open. Click on Notification to open it</span>
+    <a href="http://localhost:8080/not_a_sample.docx">Manually Open the file</a><br/>
   </body>
 </html>
