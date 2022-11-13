@@ -1,4 +1,4 @@
-This is an Electron experiment of the [will-download](https://www.electronjs.org/docs/latest/api/download-item) event
+This is an Electron experiment of auto-opening a hosted file using the [will-download](https://www.electronjs.org/docs/latest/api/download-item) event
 
 I want to intercept this event and then do some checks. If the checks pass, then delegate the auto-opening of the hosted file based on the associated protocol of the _underlying OS_. I used _electron's_ `shell` api for that.
 
