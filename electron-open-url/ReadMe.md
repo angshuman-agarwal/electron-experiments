@@ -2,7 +2,7 @@ This is an Electron experiment of the [will-download](https://www.electronjs.org
 
 I want to intercept this event and then do some checks. If the checks pass, then delegate the auto-opening of the hosted file based on the associated protocol of the _underlying OS_. I used _electron's_ `shell` api for that.
 
-E.g. A _Word_ document shoule be opened using installed version of _MS WORD_
+E.g. A _Word_ document should be opened using installed version of _MS WORD_
 
 
 ------------------------
