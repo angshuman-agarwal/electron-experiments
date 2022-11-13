@@ -1,0 +1,16 @@
+{
+  "name": "electron-open-url",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "serve": "http-server",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^21.2.3",
+    "http-server": "^14.1.1"
+  }
+}
