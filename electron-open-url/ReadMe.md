@@ -4,7 +4,7 @@ I want to intercept this event and then do some checks. If the checks pass, then
 
 E.g. A _Word_ document should be opened using installed version of _MS WORD_
 
-#### Open Issue PDFs open inline viewer which is not ideal. Can the PDF open in the viewer in a new window or how can I delegate to OS ?
+#### Open Issue - PDFs open inline viewer which is not ideal. Can the PDF open in the viewer in a new window or how can I delegate to OS ?
 ------------------------
 
 - Open the Project in editor of your choice
